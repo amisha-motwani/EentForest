@@ -1,0 +1,1626 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+.NavRow {
+  overflow: hidden;
+}
+
+.menu {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.menu ul {
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(88, 125, 131);
+  font-size: 16px;
+  font-weight: 700;
+  /* line-height: 85px; */
+}
+
+.MyDropdown {
+  height: auto;
+  width: 100vw;
+  left: -320px;
+  top: 130%;
+  position: absolute;
+  text-align: center;
+  padding: 1.5%;
+  display: none;
+}
+
+.drpmenu {
+  flex-direction: column;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+.drpmenu .Myli {
+  height: auto;
+  text-align: start;
+  margin-right: 70%;
+  font-size: 15px;
+  color: rgb(5, 7, 72);
+  list-style-type: none;
+}
+
+.box25 {
+  height: auto;
+  margin-bottom: 5%;
+  margin-top: 0%;
+  width: 100%;
+  text-align: start;
+  background: -webkit-linear-gradient(top, #c7ecff 0, #f9efff 100%);
+  padding-bottom: 5%;
+}
+
+.drpp:hover .MyDropdown {
+  display: block;
+  display: flex;
+}
+
+.Circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 1px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to right, rgb(255, 164, 133), rgb(255, 53, 140));
+}
+.Circle i {
+  color: white;
+}
+
+.BlueDiv {
+  margin-left: 10px;
+  height: 55px;
+  width: 160px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 30px 30px 30px 30px;
+  background-image: linear-gradient(to right, rgb(100, 61, 185), rgb(43, 137, 234));
+}
+.BlueDiv p {
+  margin-top: 5%;
+  color: white;
+}
+
+@media screen and (max-width: 920px) {
+  .Circle {
+    margin-left: 52%;
+  }
+  .Circle i {
+    color: white;
+  }
+  .BlueDiv {
+    margin-top: 10px;
+    margin-left: 45%;
+  }
+  .BlueDiv p {
+    margin-top: 5%;
+    color: white;
+  }
+  .MyDropdown {
+    left: -440px;
+  }
+  .MyDropdown .box25 {
+    margin-left: -20px;
+  }
+  .MyDropdown .box25 .drpmenu {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .Circle {
+    margin-left: 52%;
+  }
+  .Circle i {
+    color: white;
+  }
+  .BlueDiv {
+    margin-top: 10px;
+    margin-left: 45%;
+  }
+  .BlueDiv p {
+    margin-top: 5%;
+    color: white;
+  }
+  .MyDropdown {
+    left: -380px;
+  }
+  .MyDropdown .box25 {
+    margin-left: -20px;
+  }
+  .MyDropdown .box25 .drpmenu {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .Circle {
+    margin-left: 52%;
+  }
+  .Circle i {
+    color: white;
+  }
+  .BlueDiv {
+    margin-top: 10px;
+    margin-left: 45%;
+  }
+  .BlueDiv p {
+    margin-top: 5%;
+    color: white;
+  }
+  .MyDropdown {
+    left: -330px;
+  }
+  .MyDropdown .box25 {
+    margin-left: -20px;
+  }
+  .MyDropdown .box25 .drpmenu {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .Circle {
+    margin-top: 1%;
+    margin-left: 52%;
+  }
+  .Circle i {
+    color: white;
+  }
+  .BlueDiv {
+    margin-top: 10px;
+    margin-left: 45%;
+  }
+  .BlueDiv p {
+    margin-top: 5%;
+    color: white;
+  }
+  .MyDropdown {
+    left: -330px;
+  }
+  .MyDropdown .box25 {
+    height: auto;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    width: 60%;
+    text-align: start;
+    margin-right: 8%;
+    background: -webkit-linear-gradient(top, #c7ecff 0, #f9efff 100%);
+    padding-bottom: 5%;
+    margin-left: -10%;
+  }
+  .MyDropdown .box25 .drpmenu {
+    margin-left: 0px;
+  }
+  .MyDropdown .box25 h2 {
+    font-size: 18px;
+  }
+  .drpmenu {
+    flex-direction: column;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+  .drpmenu .Myli {
+    height: auto;
+    text-align: start;
+    margin-right: 70%;
+    font-size: 12px;
+    color: rgb(5, 7, 72);
+    list-style-type: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Circle {
+    margin-top: 1%;
+    margin-left: 49%;
+  }
+  .Circle i {
+    color: white;
+  }
+  .BlueDiv {
+    margin-top: 10px;
+    margin-left: 35%;
+  }
+  .BlueDiv p {
+    margin-top: 5%;
+    color: white;
+  }
+  .MyDropdown {
+    left: -330px;
+  }
+  .MyDropdown .box25 {
+    height: auto;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    width: 60%;
+    text-align: start;
+    margin-right: 8%;
+    background: -webkit-linear-gradient(top, #c7ecff 0, #f9efff 100%);
+    padding-bottom: 5%;
+    margin-left: -10%;
+  }
+  .MyDropdown .box25 .drpmenu {
+    flex-direction: row;
+    margin-left: 0px;
+  }
+  .MyDropdown .box25 h2 {
+    font-size: 15px;
+  }
+  .drpmenu {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .drpmenu .Myli {
+    height: auto;
+    text-align: start;
+    margin-right: 70%;
+    font-size: 12px;
+    color: rgb(5, 7, 72);
+    list-style-type: none;
+  }
+  .FormRow1 .Form .heading {
+    height: 200px;
+  }
+  .FormRow1 .Form .heading h2 {
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: start;
+  }
+  .FormRow1 .Form .heading h1 {
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: start;
+  }
+  .FormRow1 .Form .InputDiv {
+    margin-top: 5px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .FormRow1 .Form .InputDiv .a {
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(158, 156, 156);
+    border-radius: 5px;
+    background-color: white;
+  }
+  .FormRow1 .Form .InputDiv .b {
+    margin-top: 85%;
+    margin-left: -300px;
+    padding: 50px;
+    height: 200px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(162, 162, 162);
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .FormRow1 .Form .agree {
+    margin-top: 25%;
+  }
+  .FormRow1 .Form .sbbtn {
+    margin-right: 1rem;
+    width: 50px;
+    padding: 0px;
+    height: 55px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgb(255, 167, 133), rgb(255, 54, 140));
+    color: white;
+    border: none;
+  }
+  .FormRow1 .Form h2 {
+    color: gray;
+    margin-left: 5%;
+  }
+  .FormRow1 .pic {
+    display: flex;
+    align-items: center;
+  }
+  .FormRow1 .pic img {
+    height: 57%;
+    width: 890%;
+  }
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Questrial";
+  line-height: 52px;
+  font-weight: 600;
+  font-size: 40px;
+  color: rgb(5, 7, 72);
+}
+
+h2 {
+  font-family: "Questrial";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgb(230, 2, 115);
+}
+
+p {
+  font-family: "Questrial";
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgb(108, 109, 145);
+}
+
+.heading {
+  text-align: center;
+  font-family: "Questrial";
+  line-height: 72px;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.para {
+  font-family: "Questrial";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.EventManagementRow {
+  background-image: linear-gradient(rgb(249, 255, 239), rgb(239, 255, 248));
+}
+.EventManagementRow .EventManagementCol {
+  height: auto;
+  background-color: rgb(250, 255, 239), rgb(241, 255, 247);
+}
+.EventManagementRow .EventManagementCol .heading {
+  margin-left: 20px;
+  text-align: start;
+}
+.EventManagementRow .EventManagementCol .para {
+  margin-left: 20px;
+  text-align: start;
+  text-align: justify;
+}
+.EventManagementRow .EventManagementCol .para .TextColour {
+  color: hotpink;
+}
+.EventManagementRow .EventManagementCol .ForBtn button {
+  margin-left: 20px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  height: 56px;
+  width: 197px;
+  background-image: linear-gradient(to right, rgb(255, 164, 133), rgb(255, 53, 140));
+  position: relative;
+}
+.EventManagementRow .EventManagementCol .ForBtn button .White {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin-top: -25%;
+  margin-left: 57%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: 1s !important;
+}
+.EventManagementRow .EventManagementCol .ForBtn button .White:hover {
+  left: -30px;
+}
+.EventManagementRow .pic {
+  height: inherit;
+  background-color: rgb(250, 255, 239), rgb(241, 255, 247);
+}
+.EventManagementRow .pic img {
+  height: 100%;
+  width: 100%;
+}
+
+.SecondEventManagementRow {
+  background-color: rgb(255, 248, 242);
+  text-align: justify;
+}
+.SecondEventManagementRow .SecondEventManagementCol {
+  height: auto;
+  text-align: center;
+}
+.SecondEventManagementRow .SecondEventManagementCol h1 {
+  font-family: "Questrial";
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+}
+.SecondEventManagementRow .SecondEventManagementCol h1 .pinkText {
+  color: #E91E63;
+}
+.SecondEventManagementRow .SecondEventManagementCol h2 {
+  text-align: center;
+  font-family: "Questrial";
+  font-weight: 400;
+  font-size: 17px;
+}
+.SecondEventManagementRow .SecondEventManagementCol .ColorfulText {
+  text-align: center;
+  font-family: "Questrial";
+  font-weight: 400;
+  font-size: 17px;
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  background-image: linear-gradient(to right, #673AB7 0%, #E91E63 36%, #E91E63 65%, #673AB7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.SecondEventManagementRow .SecondEventManagementCol .centerpara {
+  text-align: center;
+  font-family: "Questrial";
+  font-weight: 400;
+  font-size: 17px;
+}
+.SecondEventManagementRow .SecondEventManagementCol .centerpara .ColorfulText {
+  text-align: center;
+  font-family: "Questrial";
+  font-weight: 400;
+  font-size: 17px;
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  background-image: linear-gradient(to right, #673AB7 0%, #E91E63 36%, #E91E63 65%, #673AB7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.SecondEventManagementRow .SecondEventManagementCol p {
+  text-align: start;
+  text-align: justify;
+  font-family: "Questrial";
+  font-weight: 400;
+  font-size: 17px;
+}
+.SecondEventManagementRow .SecondEventManagementCol button {
+  height: 56px;
+  width: 217px;
+  border: none;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, rgb(255, 164, 133), rgb(255, 53, 140));
+  color: white;
+  position: relative;
+}
+.SecondEventManagementRow .SecondEventManagementCol button .White {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin-top: -24%;
+  margin-left: 61%;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: 1s;
+}
+.SecondEventManagementRow .SecondEventManagementCol button .White:hover {
+  left: -20%;
+}
+
+.OurServicesRow {
+  background-color: rgb(255, 255, 255);
+}
+.OurServicesRow .OurServicesCol h1 {
+  text-align: center;
+}
+.OurServicesRow .OurServicesCol p {
+  text-align: center;
+  text-align: justify;
+  font-family: "Questrial";
+  font-size: 17px;
+}
+
+.Picsrow {
+  background-color: rgb(255, 255, 255);
+}
+.Picsrow .picscol {
+  height: auto;
+}
+.Picsrow .picscol .main .pic {
+  width: 100%;
+  height: 400px;
+  border-radius: 5%;
+}
+.Picsrow .picscol .main .pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 10px 10px;
+  transition: 1.2s;
+}
+.Picsrow .picscol .main .pic:hover img {
+  width: 95%;
+  height: 95%;
+}
+.Picsrow .picscol .main h1 {
+  margin-left: 10px;
+  text-align: start;
+  font-family: "Questrial";
+  font-weight: 400;
+  font-size: 30px;
+}
+.Picsrow .picscol .main p {
+  margin-left: 10px;
+  text-align: start;
+}
+
+.MallDecorationRow {
+  background-color: rgb(251, 255, 238);
+}
+.MallDecorationRow .MallDecorationCol h2 {
+  text-align: center;
+  font-family: "Questrial";
+  font-weight: 400px;
+  font-size: 17px;
+}
+.MallDecorationRow .MallDecorationCol h1 {
+  text-align: center;
+  font-family: "Questrial";
+  font-weight: 400px;
+  font-size: 40px;
+  margin-left: 5px;
+}
+.MallDecorationRow .MallDecorationCol p {
+  text-align: justify;
+}
+
+.EightPicRow {
+  background-image: linear-gradient(rgb(251, 255, 238), rgb(239, 254, 246));
+}
+.EightPicRow .EightPicCol .EightPicRow1 .EightPicCol1 {
+  display: flex;
+  justify-content: center;
+}
+.EightPicRow .EightPicCol .EightPicRow1 .EightPicCol1 .EightPicDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 310px;
+  width: 260px;
+  transform: scale(1.02);
+  transition: transform 1s;
+}
+.EightPicRow .EightPicCol .EightPicRow1 .EightPicCol1 .EightPicDiv:hover {
+  transform: scale(1.1);
+}
+.EightPicRow .EightPicCol .EightPicRow1 .EightPicCol1 .EightPicDiv img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.DottedRow .DottedCol {
+  text-align: center;
+}
+.DottedRow .DottedCol h2 {
+  font-family: "Questrial";
+  font-weight: 400px;
+  font-size: 17px;
+}
+.DottedRow .DottedCol p {
+  text-align: justify;
+}
+
+.SixPicRow {
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.SixPicRow .SixCol {
+  display: flex;
+  align-items: center;
+}
+.SixPicRow .SixCol .main {
+  margin-top: 0px;
+  background-color: pink;
+  width: 100%;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  border-radius: 10px;
+}
+.SixPicRow .SixCol .main .up-hor:hover {
+  transform: translateY(-7.5px);
+  transition: 1.2s;
+}
+.SixPicRow .SixCol .main .pic {
+  margin-top: 0px;
+  width: 100%;
+  height: 370px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.SixPicRow .SixCol .main .pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.SixPicRow .SixCol .main .pic .overlapped {
+  position: absolute;
+  width: 95%;
+  height: 25%;
+  box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.676);
+  top: 330px;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.SixPicRow .SixCol .main .pic .overlapped h1 {
+  font-size: 22px;
+}
+.SixPicRow .SixCol .main .pic .overlapped h2 {
+  font-size: 17px;
+  color: gray;
+  text-align: center;
+}
+
+.CheckOurLatestRow {
+  justify-content: center;
+}
+.CheckOurLatestRow .CheckOurLatestCol {
+  text-align: center;
+}
+.CheckOurLatestRow .CheckOurLatestCol h2 {
+  font-family: "Questrial";
+  font-weight: 400px;
+  font-size: 17px;
+}
+.CheckOurLatestRow .CheckOurLatestCol h1 {
+  font-family: "Questrial";
+  font-weight: 400px;
+  font-size: 40px;
+}
+.CheckOurLatestRow .CheckOurLatestCol p {
+  font-family: "Questrial";
+  font-weight: 400px;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.TwoPicRow .TwoPicCol {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TwoPicRow .TwoPicCol .a {
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.TwoPicRow .TwoPicCol .b {
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.TwoPicRow .a:hover {
+  width: 90%;
+  height: 90%;
+}
+.TwoPicRow .b:hover {
+  width: 90%;
+  height: 90%;
+}
+
+.FourPicRow .FourPiCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FourPicRow .FourPiCol .c {
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.FourPicRow .FourPiCol .d {
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.FourPicRow .FourPiCol .e {
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.FourPicRow .FourPiCol .f {
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.FourPicRow .FourPiCol .c:hover {
+  width: 90%;
+  height: 90%;
+}
+.FourPicRow .FourPiCol .d:hover {
+  width: 90%;
+  height: 90%;
+}
+.FourPicRow .FourPiCol .e:hover {
+  width: 90%;
+  height: 90%;
+}
+.FourPicRow .FourPiCol .f:hover {
+  width: 90%;
+  height: 90%;
+}
+
+.ThreePicRow .ThreePicCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ThreePicRow .ThreePicCol .g {
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.ThreePicRow .ThreePicCol .h {
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.ThreePicRow .ThreePicCol .i {
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+  transition: 1s;
+}
+.ThreePicRow .ThreePicCol .g:hover {
+  width: 90%;
+  height: 90%;
+}
+.ThreePicRow .ThreePicCol .h:hover {
+  width: 90%;
+  height: 90%;
+}
+.ThreePicRow .ThreePicCol .i:hover {
+  width: 90%;
+  height: 90%;
+}
+
+.VideoRow .VideoCol {
+  height: 540px;
+}
+.VideoRow .VideoCol iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.BlueRow1 {
+  background-color: rgb(233, 245, 255);
+}
+.BlueRow1 .BlueCol {
+  display: flex;
+  align-items: center;
+}
+.BlueRow1 .BlueCol img {
+  height: 100%;
+  width: 100%;
+}
+.BlueRow1 .BlueCol .write {
+  height: auto;
+  width: 85;
+  text-align: start;
+  align-items: center;
+}
+.BlueRow1 .BlueCol .write .blueh1 {
+  text-align: start;
+  font-family: "Questrial";
+  font-weight: 900px;
+  font-size: 40px;
+  line-height: 52px;
+}
+.BlueRow1 .BlueCol .write .blueh2 {
+  font-family: "Questrial";
+  font-weight: 900px;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgb(230, 2, 115);
+}
+.BlueRow1 .BlueCol .write .bluep {
+  font-family: "Questrial";
+  font-weight: 400px;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.BlueRow2 {
+  background-color: rgb(233, 245, 255);
+}
+.BlueRow2 .BlueCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BlueRow2 .BlueCol img {
+  height: 100%;
+  width: 100%;
+}
+.BlueRow2 .BlueCol .write {
+  align-items: center;
+  height: auto;
+  width: 85;
+}
+.BlueRow2 .BlueCol .write .blueh1 {
+  text-align: start;
+  font-family: "Questrial";
+  font-weight: 900px;
+  font-size: 40px;
+  line-height: 52px;
+}
+.BlueRow2 .BlueCol .write .blueh2 {
+  font-family: "Questrial";
+  font-weight: 900px;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgb(230, 2, 115);
+}
+.BlueRow2 .BlueCol .write .bluep {
+  font-family: "Questrial";
+  font-weight: 400px;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.BlueRow3 {
+  background-color: rgb(233, 245, 255);
+}
+.BlueRow3 .BlueCol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BlueRow3 .BlueCol img {
+  height: 100%;
+  width: 100%;
+}
+.BlueRow3 .BlueCol .write {
+  align-items: center;
+  height: auto;
+  width: 85;
+}
+.BlueRow3 .BlueCol .write .blueh1 {
+  text-align: start;
+  font-family: "Questrial";
+  font-weight: 900px;
+  font-size: 40px;
+  line-height: 52px;
+}
+.BlueRow3 .BlueCol .write .blueh2 {
+  font-family: "Questrial";
+  font-weight: 900px;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgb(230, 2, 115);
+}
+.BlueRow3 .BlueCol .write .bluep {
+  font-family: "Questrial";
+  font-weight: 400px;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.StageProducationRow {
+  background-color: rgb(233, 245, 255);
+  text-align: center;
+}
+.StageProducationRow .StageProducationCol {
+  background-color: rgb(233, 245, 255);
+  text-align: center;
+}
+.StageProducationRow .StageProducationCol h2 {
+  justify-content: center;
+  font-family: "Questrial";
+  font-weight: 400px;
+  font-size: 17px;
+  margin-left: 5px;
+}
+.StageProducationRow .StageProducationCol h1 {
+  text-align: center;
+  font-family: "Questrial";
+  font-weight: 400px;
+  font-size: 40px;
+  margin-left: 5px;
+}
+.StageProducationRow .StageProducationCol p {
+  font-family: "Questrial";
+  font-weight: 400px;
+  font-size: 17px;
+  margin-left: 5px;
+  align-items: center;
+}
+
+.BeautifulpicRow {
+  background-color: rgb(233, 245, 255);
+}
+.BeautifulpicRow .BeautifulPicCol img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.489);
+}
+
+.ClientsWhoTrustUsRow {
+  background-image: linear-gradient(rgb(254, 247, 251), rgb(253, 247, 248));
+}
+.ClientsWhoTrustUsRow .ClientsWhoTrustUsCol {
+  text-align: center;
+}
+.ClientsWhoTrustUsRow .ClientsWhoTrustUsCol h2 {
+  font-family: "Questrial";
+  font-size: 17px;
+}
+.ClientsWhoTrustUsRow .ClientsWhoTrustUsCol h1 {
+  font-family: "Questrial";
+  font-size: 40px;
+}
+
+.RowOfFivePic {
+  background-image: linear-gradient(rgb(254, 246, 253), rgb(253, 245, 253));
+}
+.RowOfFivePic .ColOfFivePic {
+  background-image: linear-gradient(rgb(247, 238, 247), rgb(249, 237, 254));
+}
+.RowOfFivePic .ColOfFivePic .RowOfFivePic1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.RowOfFivePic .ColOfFivePic .RowOfFivePic1 .ColOfFivePic1 {
+  width: 226px;
+  background-image: linear-gradient(to right, white, rgb(248, 243, 250));
+  height: 150px;
+  border-radius: 6px;
+  border: 0.1px solid rgba(128, 128, 128, 0.568);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0%;
+}
+.RowOfFivePic .ColOfFivePic .RowOfFivePic1 .ColOfFivePic1 img {
+  width: 90%;
+  height: 60%;
+}
+
+.PinkRow {
+  background-color: rgb(248, 237, 254);
+}
+.PinkRow .PinkCol {
+  display: flex;
+  justify-content: center;
+}
+.PinkRow .PinkCol h1 {
+  text-align: center;
+  font-family: "Questrial";
+  font-size: 40px;
+}
+.PinkRow .PinkCol button {
+  padding: 0%;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, rgb(240, 44, 149), rgb(185, 44, 204));
+  border: none;
+  color: white;
+}
+.PinkRow .PinkCol .White {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin-left: 47%;
+  margin-top: -25%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: 1s;
+}
+.PinkRow .PinkCol .White:hover {
+  right: -40%;
+}
+
+.Over2000Row {
+  text-align: center;
+}
+.Over2000Row .Over2000Col {
+  margin-top: 50px;
+}
+.Over2000Row .Over2000Col h2 {
+  font-family: "Questrial";
+  font-size: 17px;
+}
+.Over2000Row .Over2000Col h1 {
+  font-family: "Questrial";
+  font-size: 40px;
+}
+
+.GirlPics .Sonal {
+  display: flex;
+  margin-top: 7%;
+}
+.GirlPics .Sonal .pic {
+  height: 200px;
+  width: 275px;
+  border-radius: 10px;
+}
+.GirlPics .Sonal .pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.GirlPics .Sunita {
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+}
+.GirlPics .Sunita .pic {
+  height: 200px;
+  width: 275px;
+  border-radius: 10px;
+}
+.GirlPics .Sunita .pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.GirlPics .Written P {
+  text-align: justify;
+}
+.GirlPics .Written .profile {
+  display: flex;
+  height: 80px;
+}
+.GirlPics .Written .profile .RoundPic {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+.GirlPics .Written .profile .RoundPic img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.GirlPics .Written .profile .name {
+  height: 80px;
+  margin-left: 10px;
+}
+.GirlPics .Written .profile .name h1 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 22px;
+  text-align: start;
+}
+.GirlPics .Written .profile .name p {
+  margin-top: 0px;
+  font-size: 20px;
+  text-align: start;
+}
+
+.ReadMoreReviewsRow .ReadMoreReviewsCol {
+  text-align: center;
+}
+.ReadMoreReviewsRow .ReadMoreReviewsCol h1 {
+  font-family: "Questrial";
+  font-size: 40px;
+}
+.ReadMoreReviewsRow .ReadMoreReviewsCol h2 {
+  font-family: "Questrial";
+  font-size: 17px;
+}
+
+.GooglReviewsRow .GooglReviewsCol img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.whatsappReviewsRow {
+  margin-bottom: 15%;
+}
+.whatsappReviewsRow .WhatsappReviewsCol img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.SpecialCelebrationRow {
+  background-color: rgb(251, 248, 237);
+}
+.SpecialCelebrationRow .SpecialCelebrationCol {
+  text-align: center;
+}
+.SpecialCelebrationRow .SpecialCelebrationCol h2 {
+  font-family: "Questrial";
+  font-size: 17px;
+}
+.SpecialCelebrationRow .SpecialCelebrationCol h1 {
+  font-family: "Questrial";
+  font-size: 40px;
+}
+.SpecialCelebrationRow .SpecialCelebrationCol p {
+  font-family: "Questrial";
+  font-size: 17px;
+}
+
+.TwentyFourPicRow {
+  background: linear-gradient(rgb(251, 244, 241), rgb(251, 235, 248));
+}
+.TwentyFourPicRow .ColTwentyFour .TwentyFourPicRow1 {
+  justify-content: space-evenly;
+  margin-bottom: 8%;
+}
+.TwentyFourPicRow .ColTwentyFour .TwentyFourPicRow1 .TwentyFourPicCol {
+  height: 105px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.TwentyFourPicRow .ColTwentyFour .TwentyFourPicRow1 .TwentyFourPicCol .up-hor:hover {
+  transform: translateY(-7.5px);
+  transition: 1.2s;
+}
+.TwentyFourPicRow .ColTwentyFour .TwentyFourPicRow1 .TwentyFourPicCol .main {
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+}
+.TwentyFourPicRow .ColTwentyFour .TwentyFourPicRow1 .TwentyFourPicCol .pic {
+  width: 30%;
+  height: 80%;
+}
+.TwentyFourPicRow .ColTwentyFour .TwentyFourPicRow1 .TwentyFourPicCol .pic img {
+  height: 100%;
+  width: 100%;
+}
+.TwentyFourPicRow .ColTwentyFour .TwentyFourPicRow1 .TwentyFourPicCol .heading {
+  width: 60%;
+  height: 30%;
+  display: flex;
+  justify-content: left;
+}
+.TwentyFourPicRow .ColTwentyFour .TwentyFourPicRow1 .TwentyFourPicCol .heading h1 {
+  height: 100%;
+  width: 100%;
+  font-family: "Questrial";
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+}
+
+.LatestStoriesRow .LatestStoriesCol {
+  justify-content: center;
+}
+.LatestStoriesRow .LatestStoriesCol h2 {
+  font-family: "Questrial";
+  font-size: 17px;
+  text-align: center;
+}
+.LatestStoriesRow .LatestStoriesCol h1 {
+  font-family: "Questrial";
+  text-align: center;
+}
+
+.ColourfulRow {
+  justify-content: space-around;
+  padding-bottom: 80px;
+}
+.ColourfulRow .ColourfulCol {
+  display: flex;
+  align-items: flex-end;
+}
+.ColourfulRow .ColourfulCol .up-hor:hover {
+  transform: translateY(-7.5px);
+  transition: 1s;
+}
+.ColourfulRow .MainBox {
+  width: 100%;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.ColourfulRow .MainBox .TopDiv {
+  width: 100%;
+  height: 195px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.ColourfulRow .MainBox .TopDiv img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.ColourfulRow .MainBox .OverlappedDiv {
+  width: 90%;
+  height: 21%;
+  border: 0.1px solid gray;
+  position: absolute;
+  top: 170px;
+  border-radius: 20px 20px 20px 20px;
+  background-image: linear-gradient(to right, rgb(255, 12, 80), rgb(242, 44, 129), rgb(202, 6, 185));
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ColourfulRow .MainBox .OverlappedDiv h2 {
+  color: white;
+  font-size: 18px;
+}
+.ColourfulRow .MainBox .MiddleDiv {
+  margin-top: 10%;
+  margin-left: 5%;
+  width: 90%;
+}
+.ColourfulRow .MainBox .MiddleDiv h1 {
+  font-size: 22px;
+  line-height: 32px;
+  text-align: start;
+}
+.ColourfulRow .MainBox .MiddleDiv p {
+  font-size: 17px;
+}
+.ColourfulRow .MainBox .LastDiv {
+  margin-left: 20px;
+  height: 82px;
+  width: 88%;
+  border: none;
+  border-top: 0.1px solid rgba(128, 128, 128, 0.416);
+  display: flex;
+  align-items: center;
+}
+.ColourfulRow .MainBox .LastDiv h1 {
+  color: gray;
+  font-size: 17px;
+}
+.ColourfulRow .MainBox .LastDiv h1 i {
+  margin-left: 7px;
+  color: rgb(106, 106, 142);
+}
+
+.FormRow {
+  background-image: linear-gradient(rgb(215, 255, 252), rgb(254, 240, 245));
+  overflow: hidden;
+}
+.FormRow .FormCol {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  border-radius: 10px;
+  background-image: linear-gradient(rgb(238, 254, 253), rgb(252, 248, 251));
+}
+.FormRow .FormCol .pic img {
+  width: auto;
+  height: 100%;
+}
+.FormRow .FormCol .FormRow1 .Form .heading {
+  height: 200px;
+}
+.FormRow .FormCol .FormRow1 .Form .heading h2 {
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: start;
+}
+.FormRow .FormCol .FormRow1 .Form .heading h1 {
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: start;
+}
+.FormRow .FormCol .FormRow1 .Form .InputDiv {
+  height: 260px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.FormRow .FormCol .FormRow1 .Form .InputDiv .a {
+  height: 50px;
+  width: 260px;
+  border: none;
+  border-bottom: 2px solid rgb(158, 156, 156);
+  border-radius: 5px;
+  background-color: white;
+}
+.FormRow .FormCol .FormRow1 .Form .InputDiv .b {
+  height: 120px;
+  width: 80%;
+  border: none;
+  border-bottom: 2px solid rgb(162, 162, 162);
+  border-radius: 5px;
+  background-color: white;
+}
+.FormRow .FormCol .FormRow1 .Form .sbbtn {
+  margin-left: 8%;
+  width: 100%;
+  height: 55px;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, rgb(255, 167, 133), rgb(255, 54, 140));
+  color: white;
+  border: none;
+}
+.FormRow .FormCol .FormRow1 .Form .White {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin-left: 85%;
+  margin-top: -10%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: 1s;
+}
+.FormRow .FormCol .FormRow1 .Form .White:hover {
+  left: -7%;
+}
+.FormRow .FormCol .FormRow1 .Form h2 {
+  color: gray;
+  margin-left: 5%;
+}
+.FormRow .FormCol .FormRow1 .pic {
+  display: flex;
+  align-items: center;
+}
+.FormRow .FormCol .FormRow1 .pic img {
+  height: 57%;
+  width: 890%;
+}
+
+.ContactUsRow .BlueDivCol {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  height: 510px;
+  background-color: rgb(231, 251, 255);
+}
+.ContactUsRow .BlueDivCol .LightBlueDiv {
+  background-color: 0;
+  margin-left: 5%;
+  height: 100%;
+  width: 95%;
+}
+.ContactUsRow .BlueDivCol .LightBlueDiv .BlueDiv {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+.ContactUsRow .BlueDivCol .LightBlueDiv .BlueDiv .location {
+  display: flex;
+}
+.ContactUsRow .BlueDivCol .LightBlueDiv .BlueDiv .location .logo {
+  color: gray;
+}
+.ContactUsRow .BlueDivCol .LightBlueDiv .BlueDiv .location .written {
+  color: gray;
+}
+.ContactUsRow .logo {
+  color: gray;
+}
+.ContactUsRow .h {
+  text-align: start;
+}
+.ContactUsRow .h2 {
+  color: gray;
+  font-size: 20px;
+}
+.ContactUsRow .p {
+  font-size: 17px;
+}
+.ContactUsRow .MapDivCol {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  height: 510px;
+}
+.ContactUsRow .MapDivCol .Map {
+  height: 100%;
+  width: 95%;
+}
+.ContactUsRow .MapDivCol .Map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.GetNewRow {
+  background-image: linear-gradient(rgb(255, 252, 242), rgb(255, 240, 245));
+}
+.GetNewRow .GetNewCol h1 {
+  margin-left: 5%;
+  text-align: start;
+}
+.GetNewRow .GetNewCol p {
+  margin-left: 5%;
+}
+.GetNewRow .InputDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5%;
+}
+.GetNewRow .InputDiv .Main {
+  height: 65px;
+  width: 570px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.GetNewRow .InputDiv .Main input {
+  width: 66%;
+  height: 100%;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  border: none;
+}
+.GetNewRow .InputDiv .Main .Subscribe {
+  width: 32%;
+  height: 90%;
+  background-color: rgba(0, 255, 255, 0.728);
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-image: linear-gradient(to right, rgb(255, 164, 133), rgb(255, 53, 140));
+}
+.GetNewRow .InputDiv .Main .Subscribe h2 {
+  color: white;
+  text-align: center;
+  margin-top: 12%;
+}
+.GetNewRow .InputDiv .Main .Subscribe .White {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-left: 75%;
+  margin-top: -30%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: 1s;
+}
+.GetNewRow .InputDiv .Main .Subscribe .White:hover {
+  left: -14%;
+}
+
+.QuickLinksRow {
+  height: auto;
+}
+.QuickLinksRow .logoCol {
+  height: auto;
+}
+.QuickLinksRow .logoCol img {
+  width: 85px;
+  height: 80px;
+}
+.QuickLinksRow .logoCol p {
+  margin-top: 0px;
+  height: auto;
+}
+.QuickLinksRow .logoCol button {
+  margin-top: 0px;
+  margin-left: 0px;
+  height: 56px;
+  width: 219px;
+  border: none;
+  background-image: linear-gradient(to right, rgb(98, 63, 186), rgb(42, 138, 235));
+  border-radius: 30px;
+  color: white;
+}
+.QuickLinksRow .logoCol button .White {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  margin-left: 65%;
+  margin-top: -20%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: 1s;
+}
+.QuickLinksRow .logoCol button .White:hover {
+  left: -13%;
+}
+.QuickLinksRow .ServicesCol h1 {
+  text-align: start;
+}
+.QuickLinksRow .ServicesCol p {
+  color: gray;
+}
+.QuickLinksRow .ServicesCol p ul {
+  list-style: none;
+  text-decoration: none;
+}
+.QuickLinksRow .ServicesCol p ul li {
+  list-style: none;
+  color: gray;
+}
+
+.OurAchievementsRow {
+  background-color: rgb(248, 249, 250);
+}
+.OurAchievementsRow .OurAchievementsCol .OurAchievementsRow1 .OurAchievementsCol1 {
+  height: auto;
+}
+.OurAchievementsRow .OurAchievementsCol .OurAchievementsRow1 .OurAchievementsCol1 h1 {
+  text-align: start;
+}
+.OurAchievementsRow .OurAchievementsCol .OurAchievementsRow1 .LogoCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OurAchievementsRow .OurAchievementsCol .OurAchievementsRow1 .LogoCol img {
+  width: 150px;
+  height: 109px;
+}
+
+.LogoRow .LogoCol {
+  height: auto;
+  margin-left: 20%;
+}
+.LogoRow .LogoCol .batch {
+  font-size: 25px;
+  color: rgb(106, 106, 142);
+  margin-left: 5%;
+}
+.LogoRow .LogoCol .batch:hover {
+  color: #e83e8c;
+}
+
+.CopyrightRow .CopyrightCol {
+  text-align: center;
+  color: gray;
+  font-size: 17px;
+}
+
+.up-hor:hover {
+  transform: translateY(-7.5px);
+  transition: 1.2s;
+}/*# sourceMappingURL=main.css.map */
